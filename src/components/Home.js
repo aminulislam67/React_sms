@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="container mt-3">
         <section className='d-flex justify-content-between'>
-          <div className="left_data mt-3" style={{width:"100%"}}>
+          <div className="left_data mt-3 p-3" style={{width:"100%"}}>
             <h3 className='text-center col-lg-6'>Sign up</h3>
             <Form>
               <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
@@ -33,15 +33,17 @@ const Home = () => {
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
             
-              <Button variant="primary" type="submit">
+              <Button variant="primary" className='col-lg-6' style={{background:"green"}} type="submit">
         Submit
       </Button>
             </Form>
 
+            
+
           </div>
-          <div className="right_data mt-3" style={{width:"100%"}}>
-          <div className='sign_img mt-3'>
-            <img src="./sign.svg"  style={{width:"100%"}} alt="" />
+          <div className="right_data mt-5" style={{width:"100%"}}>
+          <div className='sign_img mt-5'>
+            <img src="./sign.svg"  style={{maxWidth:"100%"}} alt="" />
 
           </div>
           </div>
