@@ -1,6 +1,7 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import right_part from './right_part';
 
 const Home = () => {
   return (
@@ -37,19 +38,17 @@ const Home = () => {
         Submit
       </Button>
             </Form>
+            <p className='mt-3'>Already Have an Acoount? <span>SignIn</span></p>
+           
 
             
 
           </div>
-          <div className="right_data mt-5" style={{width:"100%"}}>
-          <div className='sign_img mt-5'>
-            <img src="./sign.svg"  style={{maxWidth:"100%"}} alt="" />
-
-          </div>
-          </div>
+        
+         
+        <right_part/>
         </section>
-
-
+        
       </div>
     </>
   )
